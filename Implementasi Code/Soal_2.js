@@ -31,7 +31,7 @@ const pijarFood = (harga, voucher, jarak, pajak) => {
   }
   console.log(`Harga        :  ${harga}`)
   console.log(`Potongan     :  ${potongan}`)
-  console.log(`Biaya antar  :  ${biaya}`)
+  console.log(`Biaya Antar  :  ${biaya}`)
   console.log(`Pajak        :  ${totalPajak}`)
   console.log(`SubTotal     :  ${harga - potongan + biaya + totalPajak}`)
 }  
