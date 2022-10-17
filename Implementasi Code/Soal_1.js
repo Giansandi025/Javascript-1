@@ -9,14 +9,14 @@ console.log(reverseWord('Saya Belajar Javascript'));
 
 //Cek Palindrome
 function palindromeCheck (str) {
-  const kata = str.split("").reverse().join("");
+  const kata = str.toLowerCase().split("").reverse().join("");
   if(kata === str) {
     return true;
   } else {
     return false;
   }
 }
-console.log(palindromeCheck('madam'));
+console.log(palindromeCheck('malam'));
 console.log(palindromeCheck('motor'));
 
 
